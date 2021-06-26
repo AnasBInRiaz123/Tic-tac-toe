@@ -1,0 +1,75 @@
+	
+#main{
+	min-height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    background:url(./bg.jpg)no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+
+	h1 {
+		color: rgb(119, 68, 45);
+		font-size: 55px;
+	}
+
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 100px;
+		height: 100px;
+		margin: 9px;
+		border: 1px solid rgb(177, 32, 32);
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	/* #b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9, :hover{
+    background: rgb(78, 78, 122);
+    color: cornsilk;
+	} */
+
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid dodgerblue;
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: rgb(31, 38, 46);
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	#but:hover{
+	transform: scale(1.2);
+    /* background: rgb(78, 78, 122); */
+    color: cornsilk;
+}
+
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: rgb(33, 41, 49);
+		font-size: 20px;
+	}
+
+	#main {
+		text-align: center;
+	}
+
+	#ins {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color:rgb(38, 127, 216)e;
+		font-size: 17px;
+    }
